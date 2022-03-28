@@ -25,6 +25,7 @@ import * as types from 'lib/types'
 import * as config from 'lib/config'
 
 // components
+// import { GitHubShareButton } from './GitHubShareButton'
 import { CustomFont } from './CustomFont'
 import { Loading } from './Loading'
 import { Page404 } from './Page404'
@@ -32,7 +33,6 @@ import { PageHead } from './PageHead'
 import { PageActions } from './PageActions'
 import { Footer } from './Footer'
 import { PageSocial } from './PageSocial'
-// import { GitHubShareButton } from './GitHubShareButton'
 import { ReactUtterances } from './ReactUtterances'
 
 import styles from './styles.module.css'
@@ -280,7 +280,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         }
       />
 
-      <GitHubShareButton />
+      {/* <GitHubShareButton /> */}
     </TwitterContextProvider>
   )
 }
