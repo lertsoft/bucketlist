@@ -43,7 +43,7 @@ export const Footer: React.FC<{
       <div className={styles.social}>
         {config.instagram && (
           <a
-            className={styles.twitter}
+            className={styles.instagram}
             href={`https://instagram.com/${config.instagram}`}
             title={`Instagram @${config.instagram}`}
             target='_blank'
