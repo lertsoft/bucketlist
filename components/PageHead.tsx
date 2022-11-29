@@ -23,6 +23,7 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
 
       <meta name='theme-color' content='#EB625A' />
       <meta property='og:type' content='website' />
+      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon={`{"token": "${process.env.NEXT_PUBLIC_ANALYTICS_ID}"}`}></script>
     </Head>
   )
 }
