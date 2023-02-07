@@ -382,3 +382,25 @@
 .notion-block-260baa77f1e1428b97fb14ac99c7c385 {
   display: none;
 }
+
+.instagram .actionBgPane {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+.instagram:hover {
+   border-color: #bc1888;
+}
+
+.personal .actionBgPane {
+  background: #f12b43;
+}
+.personal:hover {
+  border-color: #f12b43;
+}

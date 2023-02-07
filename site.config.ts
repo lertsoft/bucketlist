@@ -2,26 +2,29 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '62c28041a66f4b9798c3a523a2368775',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Something Changed Me',
+  domain: 'somethingchanged.me',
+  author: 'Ronny Coste',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Buckelist of items that I would love to do before I die.',
+  // socialImageTitle: 'SomethingChangedMe',
+  // socialImageSubtitle: 'Hi There! 👋',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  instagram: 'costeronny',
+  twitter: 'costeronny',
+  github: 'lertsoft',
+  linkedin: 'ronnycoste',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
-  // newsletter: '#', // optional newsletter URL
+  newsletter: 'ronnycoste.com', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
@@ -50,7 +53,7 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
+  navigationStyle: 'default',
   // navigationStyle: 'custom',
   // navigationLinks: [
   //   {
@@ -62,4 +65,20 @@ export default siteConfig({
   //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
   //   }
   // ]
+  navigationLinks: [
+
+    {
+      title: 'Gallery',
+      pageId: '62c28041a66f4b9798c3a523a2368775'
+    },
+    
+    {
+      title: 'Cinema',
+      url: 'cinema.ronnycoste.com'
+    },
+     {
+      title: 'Blog',
+      url: 'https://blog.ronnycoste.com'
+    },
+  ]
 })
