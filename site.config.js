@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '62c28041a66f4b9798c3a523a2368775',
+  rootNotionPageId: '5660ddd60beb4a1cb7800b2f490cd46f',
 
   //https://costeronny.notion.site/Bucket-List-62c28041a66f4b9798c3a523a2368775
 
@@ -9,13 +9,13 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Something Changed Me',
-  domain: 'somethingchanged.me',
+  name: 'Ronny Coste',
+  domain: 'ronnycoste.com',
   author: 'Ronny Coste',
 
   // open graph metadata (optional)
-  description: 'Buckelist of items that I would love to do before I die.',
-  socialImageTitle: 'SomethingChangedMe',
+  description: 'Personal portfolio site and blog with all the musings and things that go through my head.',
+  socialImageTitle: 'RonnyCoste',
   socialImageSubtitle: 'Hi There! 👋',
 
   // social usernames (optional)
@@ -46,9 +46,29 @@ module.exports = {
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null
+  pageUrlOverrides: {
+    '/blog': '3914c9b0241c4d3e85e2ff448e014230',
+    '/bar': '0be6efce9daf42688f65c76b89f8eb27'
+  },
+  // pageUrlOverrides: null
+
+  navigationStyle: 'custom',
+  navigationLinks: [
+    // {
+    //   title: 'Home',
+    //   pageId: '5660ddd60beb4a1cb7800b2f490cd46f'
+    // },
+    {
+      title: 'Blog',
+      pageId: '3914c9b0241c4d3e85e2ff448e014230'
+    },
+    {
+      title: 'Cinema',
+      url: 'https://cinema.ronnycoste.com'
+    },
+    {
+      title: 'Gallery',
+      url: 'https://gallery.ronnycoste.com'
+    },
+  ],
 }
