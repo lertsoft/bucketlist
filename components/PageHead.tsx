@@ -68,6 +68,10 @@ export const PageHead: React.FC<
           <meta property='twitter:url' content={url} />
         </>
       )}
+      
+       {/* <!-- Cloudflare Web Analytics --> */}
+       <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon={`{"token": "${process.env.NEXT_PUBLIC_ANALYTICS_ID}"}`}></script>
+        {/* <!-- End Cloudflare Web Analytics --> */}
 
       <link
         rel='alternate'
