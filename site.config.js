@@ -48,7 +48,7 @@ module.exports = {
   //
   pageUrlOverrides: {
     '/blog': '3914c9b0241c4d3e85e2ff448e014230',
-    '/bar': '0be6efce9daf42688f65c76b89f8eb27'
+    '/linkin': '0dd650300960414382288e267d184e89'
   },
   // pageUrlOverrides: null
 
