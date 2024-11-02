@@ -50,6 +50,9 @@ module.exports = {
     '/blog': '3914c9b0241c4d3e85e2ff448e014230',
     '/linkin': '0dd650300960414382288e267d184e89',
     '/es': '13197ead2f5680d995c3df1f61590b92',
+    '/es/about': '13197ead2f56810e94b7c550486fe21c',
+    '/es/blog': '13197ead2f568186a36cc19f21d09ff5',
+
   },
   // pageUrlOverrides: null
 
