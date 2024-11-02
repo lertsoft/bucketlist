@@ -60,10 +60,6 @@ module.exports = {
     //   pageId: '5660ddd60beb4a1cb7800b2f490cd46f'
     // },
     {
-      title: 'Español',
-      pageId: '13197ead2f5680d995c3df1f61590b92'
-    },
-    {
       title: 'Blog',
       pageId: '3914c9b0241c4d3e85e2ff448e014230'
     },
