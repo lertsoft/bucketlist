@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '5660ddd60beb4a1cb7800b2f490cd46f',
+  rootNotionPageId: '13197ead2f5680d995c3df1f61590b92',
 
   //https://costeronny.notion.site/Bucket-List-62c28041a66f4b9798c3a523a2368775
 
@@ -10,13 +10,13 @@ module.exports = {
 
   // basic site info (required)
   name: 'Ronny Coste',
-  domain: 'ronnycoste.com',
+  domain: 'es.ronnycoste.com',
   author: 'Ronny Coste',
 
   // open graph metadata (optional)
-  description: 'Personal portfolio site and blog with all the musings and things that go through my head.',
+  description: 'Portafolio personal y blog con todas los coasas que me interezan y que pasan por mi cabeza.',
   socialImageTitle: 'RonnyCoste',
-  socialImageSubtitle: 'Hi There! 👋',
+  socialImageSubtitle: 'Hallo! 👋',
 
   // social usernames (optional)
   instagram: 'costeronny',
@@ -47,7 +47,7 @@ module.exports = {
   // example:
   //
   pageUrlOverrides: {
-    '/blog': '3914c9b0241c4d3e85e2ff448e014230',
+    '/blog': '13197ead2f568141bf93000c038006ad',
     '/linkin': '0dd650300960414382288e267d184e89'
   },
   // pageUrlOverrides: null
@@ -60,14 +60,14 @@ module.exports = {
     // },
     {
       title: 'Blog',
-      pageId: '3914c9b0241c4d3e85e2ff448e014230'
+      pageId: '13197ead2f568141bf93000c038006ad'
     },
     {
       title: 'Cinema',
       url: 'https://cinema.ronnycoste.com'
     },
     {
-      title: 'Gallery',
+      title: 'Galeria',
       url: 'https://gallery.ronnycoste.com'
     },
   ],

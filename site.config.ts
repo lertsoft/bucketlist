@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '5660ddd60beb4a1cb7800b2f490cd46f',
+  rootNotionPageId: '13197ead2f5680d995c3df1f61590b92',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Ronny Coste Site',
-  domain: 'ronnycoste.com',
+  name: 'Ronny Coste website',
+  domain: 'es.ronnycoste.com',
   author: 'Ronny Coste',
 
   // open graph metadata (optional)
-  description: 'This is my portfolio site and the main site were I will post my thoughts and projects.',
+  description: 'Este es mi portafolio y sitio web principal en donde estare publicando mis ideas y projectos.',
 
   // social usernames (optional)
   twitter: 'costeronny',
@@ -55,12 +55,16 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'About',
-      pageId: 'f1199d37579b41cbabfc0b5174f4256a'
+      title: 'Blog',
+      pageId: '13197ead2f568141bf93000c038006ad'
     },
     {
-      title: 'Contact',
-      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-    }
+      title: 'Cinema',
+      url: 'https://cinema.ronnycoste.com'
+    },
+    {
+      title: 'Galeria',
+      url: 'https://gallery.ronnycoste.com'
+    },
   ]
 })
